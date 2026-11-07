@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: guia-gestao-terceiros
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      # Defina um valor próprio: a senha padrão está no README.
+      - key: DEMO_PASSWORD
+        sync: false
+    disk:
+      name: dados
+      mountPath: /data
+      sizeGB: 1
