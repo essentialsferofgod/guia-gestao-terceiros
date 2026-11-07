@@ -5,6 +5,13 @@ O streaming é o produto principal. O diferencial é um diagnóstico guiado por 
 
 Projeto do Hack Garanhuns Tech 2026, Desafio 2: Streaming Platform Engineering.
 
+## Feedback da banca
+
+O projeto foi apresentado no Hack Garanhuns Tech 2026. A banca gostou da ideia e apontou dois pontos a explicar melhor:
+
+- **Sistema de assinatura:** como funciona o modelo de cobrança.
+- **Possíveis clientes:** quem são as pessoas e empresas que usariam e pagariam pela plataforma.
+
 ## Como executar
 
 Requisito: Python 3.10 ou superior. O frontend já vem compilado, então Node.js não é necessário para rodar.
